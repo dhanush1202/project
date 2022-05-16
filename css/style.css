@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+body{
+    color: white;
+    /* background: url(../imgs/home.png);
+     */
+     background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin: 0%;
+    margin-top: -30px;
+    /* margin-top: 50px; */
+    padding: 0%;
+    font-size: 20px;
+}
+ header{
+    /* background-color: brown; */
+    padding-bottom: 14px;
+    display: block;
+} 
+
+.left{
+/* border: 3px solid blueviolet; */
+display: inline-block;
+position: relative;
+left: 40px;
+top: 41px;
+
+}
+.left img{
+    width: 60px;
+    display: block;
+    filter: invert(100%);
+    padding-left: 8px;
+}
+.left div{
+    font-size: 15px;
+}
+.mid{
+    /* border: 3px solid wheat; */
+    display: block;
+    width: 60%;
+    margin: auto auto 0px;
+    padding-right: 30px;
+    font-family: 'Roboto Flex', sans-serif;
+    
+}
+.right{
+    /* border: 3px solid yellowgreen; */
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+
+}
+
+.nav{
+    display: inline;
+}
+.nav li{
+    display: inline;
+    padding: 10px;
+}
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav li a:hover, .nav li a.active{
+    color: gray;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+
+.right a:hover{
+    text-decoration: none;
+    color:gray;
+
+    
+}
+.home{
+    /* border: 2px solid whitesmoke; */
+    display: inline-block;
+    align-items: center;
+
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    
+    /* animation: slider 9s infinite linear ; */
+}
+/* .carousel-inner{
+width: 50rem;
+margin: 60px;
+} */
+.carouselExampleCaptions{
+    width: 100%;
+}
+.about{
+    margin-top: 30px;
+    display: flex;
+    padding-left: 10%;
+    height:300px ; margin: 20px;
+
+}
+.text{
+    width: 33%;
+}

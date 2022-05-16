@@ -1,0 +1,8 @@
+15/05/2022
+pending
+1 header mid- responsive
+2 div (home) slider
+3 login, sign in
+4 about details
+5 slot booking part
+16 review
