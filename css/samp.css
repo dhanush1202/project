@@ -69,7 +69,10 @@ color: rgb(183, 174, 174);
     height:300px ; margin: 20px;
 
 }
-.text{
+.card{
+    margin-left: 30px;
+}
+.text1{
     width: 30%;
     color: white;
     font-family: 'Lato', sans-serif;
@@ -77,6 +80,7 @@ font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto Flex', sans-serif;
 margin-right: 20px;
 }
+
 .navbar-toggler {
     padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
     font-size: var(--bs-navbar-toggler-font-size);
@@ -96,4 +100,24 @@ text-decoration: none;
 .losi:hover{
 
     color: rgb(106, 102, 106);
+}
+@media only screen and (max-width: 992px) {
+    .about {
+     padding-top: 20px;
+      display: block;
+      
+    }
+    .text1{
+        width: auto;
+    }
+    .card{
+        margin-top: 20px;
+    }
+  }
+.nw{
+    margin-top: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: white;
+    border: none;
 }
