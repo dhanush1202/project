@@ -120,4 +120,8 @@ text-decoration: none;
     text-decoration: none;
     background-color: white;
     border: none;
+
+}
+.nav-item{
+    margin-left: 5px;
 }
