@@ -125,3 +125,19 @@ text-decoration: none;
 .nav-item{
     margin-left: 5px;
 }
+.appointment{
+    margin-top: 160px;
+    height: auto;
+    
+    width: auto;
+    background-color:bisque;
+
+}
+.timings{
+    display: inline-block;
+}
+.membership{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
