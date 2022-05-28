@@ -133,41 +133,19 @@ text-decoration: none;
 .nav-item{
     margin-left: 5px;
 }
-.block{
+.appointment{
     margin-top: 160px;
     height: auto;
+    
     width: auto;
-   
-    border-radius: 10px;
     background-color:bisque;
 
 }
-.app{
-    margin-top: 50px;
-    display: inline-block;
-
-    padding-left: 10%;
-    /* padding-right: 10%; */
-    margin-right: 20px;
-    width:600px ; margin: 20px;
-    border-right: 3px solid black;
-}
 .timings{
     display: inline-block;
+}
+.membership{
+    display: inline-block;
     position: absolute;
-    right: auto;
-    margin-top: 50px;
-    margin: 20px;
-}
-.prog{
-    margin-top: 50px;
-    background-color: beige;
-    border-radius:10px;
-}
-
-.tablemain{
-background-color: orangered;
-}
-td{
-    color:grey ;
+    right: 0px;
 }
